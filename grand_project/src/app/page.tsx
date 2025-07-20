@@ -1,9 +1,9 @@
-import Main from './main'
+import HeroSection from './main'
 
 export default function Home()
 {
   return (
-    <Main/>
+    <HeroSection/>
   )
 }
 
