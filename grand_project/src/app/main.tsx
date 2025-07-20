@@ -27,21 +27,22 @@ return (
         <ul className="flex flex-col gap-y-5 text-gray-700 dark:text-gray-300 lg:items-center lg:flex-row lg:gap-x-5 lg:h-full lg:justify-center lg:flex-1">
           <li>
             <Link href="#" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
-              Portfolio
+              Home
             </Link>
           </li>
+
           <li>
-            <Link href="#" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
+            <Link href="./products" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
               Products
             </Link>
           </li>
           <li>
-            <Link href="#" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
+            <Link href="./services" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
               Services
             </Link>
           </li>
           <li>
-            <Link href="#" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
+            <Link href="./company" className="transition ease-linear hover:text-gray-900 dark:hover:text-white">
               Company
             </Link>
           </li>
