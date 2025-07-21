@@ -73,11 +73,6 @@ NEXTAUTH_SECRET=your_random_secret_key
 ### 3. Database Setup
 
 #### MongoDB Setup
-1. Install MongoDB locally or use MongoDB Atlas
-2. Create a database named `recipe_generator`
-3. Collections will be created automatically
+
 
 #### Supabase Setup
-1. Go to [Supabase Dashboard](https://supabase.com/dashboard)
-2. Create a new project
-3. Go to Settings > API to
