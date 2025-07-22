@@ -49,7 +49,7 @@ return (
         </ul>
         <div className="w-full flex sm:w-max lg:min-w-max lg:items-center">
           <Link href="#" className="flex justify-center gap-x-3 items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white
-                  border-b bg-gray-700 dark:border-blue-300 hover:border-b-gray-900 dark:hover:border-b-white bg-transparent">
+                  border-b bg-gray-700 dark:border-blue-300 hover:border-b-gray-900 dark:hover:border-b-white">
             About Creator
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
@@ -120,7 +120,7 @@ return (
           dolorum labore incidunt ad ab porro, provident excepturi molestiae corporis molestias nam accusamus.
         </p>
         <div className="flex justify-center">
-          <Link href="./signin" className="px-8 h-12 rounded-full flex items-center gap-x-3 bg-emerald-700 text-white hover:bg-opacity-80">
+          <Link href="./auth" className="px-8 h-12 rounded-full flex items-center gap-x-3 bg-emerald-700 text-white hover:bg-opacity-80">
             Sign Up
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
