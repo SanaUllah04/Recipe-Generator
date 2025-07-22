@@ -120,7 +120,7 @@ return (
           dolorum labore incidunt ad ab porro, provident excepturi molestiae corporis molestias nam accusamus.
         </p>
         <div className="flex justify-center">
-          <Link href="./signin" className="px-8 h-12 rounded-full flex items-center gap-x-3 bg-emerald-700 text-white hover:bg-opacity-80">
+          <Link href="./auth" className="px-8 h-12 rounded-full flex items-center gap-x-3 bg-emerald-700 text-white hover:bg-opacity-80">
             Sign Up
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
