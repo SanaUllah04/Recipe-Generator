@@ -8,6 +8,7 @@ const MagicLinkCallback = () => {
   const router = useRouter()
   const [status, setStatus] = useState<'verifying' | 'success' | 'error'>('verifying')
   const [error, setError] = useState('')
+  const [countdown, setCountdown] = useState(5)
 
   useEffect(() => {
     const userId = searchParams.get('userId')
@@ -23,7 +24,18 @@ const MagicLinkCallback = () => {
       try {
         await account.updateMagicURLSession(userId, secret)
         setStatus('success')
-        router.push('/') // Redirect to home or dashboard
+
+        // Start countdown
+        let seconds = 5
+        const timer = setInterval(() => {
+          seconds -= 1
+          setCountdown(seconds)
+          if (seconds === 0) {
+            clearInterval(timer)
+            router.push('/') // Redirect after 5 seconds
+          }
+        }, 1000)
+
       } catch (err) {
         console.error(err)
         setStatus('error')
@@ -36,9 +48,21 @@ const MagicLinkCallback = () => {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900 text-center">
-      {status === 'verifying' && <p className="text-lg text-gray-700 dark:text-gray-300">Verifying magic link...</p>}
-      {status === 'success' && <p className="text-lg text-emerald-600">Login successful! Redirecting...</p>}
-      {status === 'error' && <p className="text-lg text-red-600">{error}</p>}
+      {status === 'verifying' && (
+        <p className="text-lg text-gray-700 dark:text-gray-300">
+          Verifying magic link...
+        </p>
+      )}
+      {status === 'success' && (
+        <p className="text-lg text-emerald-600">
+          Login successful! Redirecting in {countdown} seconds...
+        </p>
+      )}
+      {status === 'error' && (
+        <p className="text-lg text-red-600">
+          {error}
+        </p>
+      )}
     </div>
   )
 }
