@@ -16,7 +16,7 @@ return (
             <span className="h-6 aspect-square bg-emerald-600 dark:bg-emerald-400 rounded-full flex" />
             <span className="h-6 aspect-square bg-gray-600 dark:bg-white rounded-full flex" />
           </div>
-          Recipe Jini
+          Recipe JINI
         </Link>
       </div>
       <div className={`
