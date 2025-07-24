@@ -32,7 +32,7 @@ const MagicLinkCallback = () => {
           setCountdown(seconds)
           if (seconds === 0) {
             clearInterval(timer)
-            router.push('/') // Redirect after 5 seconds
+            router.push('../dashboard') // Redirect after 5 seconds
           }
         }, 1000)
 
