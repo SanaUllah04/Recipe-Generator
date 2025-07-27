@@ -2,12 +2,16 @@ export type FoodCategory = 'breakfast' | 'brunch' | 'lunch' | 'dinner' | 'desser
 
 export type CuisineType = 'desi' | 'french' | 'italian' | 'chinese' | 'mexican' | 'indian'
 
+export type Difficulty = 'Easy' | 'Medium' | 'Hard'
+
 export interface FoodItem {
   id: string
   name: string
   image?: string
   prepTime: string
-  difficulty: 'Easy' | 'Medium' | 'Hard'
+  difficulty: Difficulty
+  description?: string
+  isVegetarian?: boolean
 }
 
 export interface Ingredient {
@@ -26,6 +30,32 @@ export interface Recipe {
   prepTime: string
   cookTime: string
   servings: number
-  difficulty: 'Easy' | 'Medium' | 'Hard'
+  difficulty: Difficulty
   image?: string
+  description?: string
+  tips?: string[]
+  isVegetarian?: boolean
+}
+
+export interface CategoryOption {
+  key: FoodCategory
+  label: string
+  icon: string
+}
+
+export interface CuisineOption {
+  key: CuisineType
+  label: string
+  flag: string
+}
+
+export interface RecipeSearchResult {
+  name: string
+  ingredients: Ingredient[]
+  description: string
+  prepTime: string
+  cookTime: string
+  servings: number
+  difficulty: Difficulty
+  tips: string[]
 }

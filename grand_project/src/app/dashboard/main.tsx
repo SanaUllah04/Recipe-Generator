@@ -12,6 +12,11 @@ const Dashboard = () => {
       {/* Background decorative elements */}
       <div className="absolute top-0 left-0 -translate-x-[54%] -translate-y-[70%] w-2/5 rounded-full aspect-square bg-emerald-600/70 backdrop-filter blur-3xl opacity-50" />
       <div className="absolute bottom-0 right-0 translate-x-[54%] translate-y-[70%] w-2/5 rounded-full aspect-square bg-emerald-600/70 backdrop-filter blur-3xl opacity-50" />
+      <div className="absolute min-w-[300px] w-[48%] md:w-2/5 aspect-square rounded-full bg-gradient-to-r from-emerald-400/5 right-0 -translate-y-[40%] translate-x-[40%] top-0">
+        <div className="inset-[10%] rounded-full bg-gradient-to-l from-emerald-400/20">
+          <div className="absolute inset-[20%] rounded-full bg-gradient-to-l from-emerald-400/30" />
+        </div>
+      </div>
 
       <div className="relative z-10">
         {/* Header */}
@@ -29,8 +34,19 @@ const Dashboard = () => {
               <div className="flex items-center gap-4">
                 <button className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition duration-300">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 17h5l-5 5v-5zM4.343 12.344l7.539 7.539m0-7.539l-7.539 7.539M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </button>
+                <button className="p-2 rounded-xl bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition duration-300">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
+                </button>
+                <button className="flex items-center gap-2 px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-medium transition duration-300">
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                  </svg>
+                  Logout
                 </button>
               </div>
             </div>
@@ -44,7 +60,7 @@ const Dashboard = () => {
               Welcome to Recipe Jini
             </h1>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
-              Discover amazing recipes and explore cuisines from around the world
+              Discover amazing recipes and explore cuisines from around the world with AI-powered ingredient suggestions
             </p>
           </div>
 
@@ -56,7 +72,7 @@ const Dashboard = () => {
                 className={`flex-1 px-6 py-4 text-sm font-semibold transition duration-300 ${
                   activeTab === 'search'
                     ? 'bg-emerald-600 text-white'
-                    : 'text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400'
+                    : 'text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/10'
                 }`}
               >
                 <div className="flex items-center justify-center gap-2">
@@ -71,7 +87,7 @@ const Dashboard = () => {
                 className={`flex-1 px-6 py-4 text-sm font-semibold transition duration-300 ${
                   activeTab === 'categories'
                     ? 'bg-emerald-600 text-white'
-                    : 'text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400'
+                    : 'text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/10'
                 }`}
               >
                 <div className="flex items-center justify-center gap-2">
