@@ -2,7 +2,6 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import RecipeSearchTab from './components/RecipeSearchTab'
-import CategoryTab from './components/CategoryTab'
 
 const Dashboard = () => {
   const [activeTab, setActiveTab] = useState<'search' | 'categories'>('search')
@@ -82,27 +81,12 @@ const Dashboard = () => {
                   Recipe Search
                 </div>
               </button>
-              <button
-                onClick={() => setActiveTab('categories')}
-                className={`flex-1 px-6 py-4 text-sm font-semibold transition duration-300 ${
-                  activeTab === 'categories'
-                    ? 'bg-emerald-600 text-white'
-                    : 'text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-emerald-50 dark:hover:bg-emerald-900/10'
-                }`}
-              >
-                <div className="flex items-center justify-center gap-2">
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 11H5m14-7v2c0 1.68 0 2.52-.327 3.162a3 3 0 01-1.511 1.511C16.52 11 15.68 11 14 11H10c-1.68 0-2.52 0-3.162-.327a3 3 0 01-1.511-1.511C5 8.52 5 7.68 5 6V4m14 7v2c0 1.68 0 2.52-.327 3.162a3 3 0 01-1.511 1.511C16.52 18 15.68 18 14 18H10c-1.68 0-2.52 0-3.162-.327a3 3 0 01-1.511-1.511C5 15.52 5 14.68 5 13v-2" />
-                  </svg>
-                  Food Categories
-                </div>
-              </button>
+              
             </div>
 
             {/* Tab Content */}
             <div className="p-8">
               {activeTab === 'search' && <RecipeSearchTab />}
-              {activeTab === 'categories' && <CategoryTab />}
             </div>
           </div>
         </main>
