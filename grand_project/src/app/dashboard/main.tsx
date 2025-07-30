@@ -27,7 +27,7 @@ const Dashboard = () => {
                   <span className="h-6 aspect-square bg-emerald-600 dark:bg-emerald-400 rounded-full flex" />
                   <span className="h-6 aspect-square bg-gray-600 dark:bg-white rounded-full flex" />
                 </div>
-                Recipe Jini
+                Recipe JINI
               </Link>
               
               <div className="flex items-center gap-4">
@@ -41,11 +41,13 @@ const Dashboard = () => {
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                   </svg>
                 </button>
-                <button className="flex items-center gap-2 px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-medium transition duration-300">
-                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
-                  </svg>
-                  Logout
+                <button  className="flex items-center gap-2 px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl font-medium transition duration-300" >
+                  
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1" />
+                    </svg>
+                    Logout
+                  
                 </button>
               </div>
             </div>
@@ -56,7 +58,7 @@ const Dashboard = () => {
         <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="mb-8">
             <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
-              Welcome to Recipe Jini
+              Welcome to Recipe JINI
             </h1>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
               Discover amazing recipes and explore cuisines from around the world with AI-powered ingredient suggestions

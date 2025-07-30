@@ -190,10 +190,7 @@ const MagicLinkSignIn = () => {
 
           <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
             <p className="text-center text-sm text-gray-600 dark:text-gray-400">
-              Have an account?{' '}
-              <Link href="/signup" className="text-emerald-600 hover:text-emerald-700 font-semibold transition duration-300">
-                Login
-              </Link>
+              Make A New Account Here
             </p>
           </div>
         </div>

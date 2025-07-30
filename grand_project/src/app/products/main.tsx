@@ -17,7 +17,7 @@ const Navbar = () => {
                 <span className="h-6 aspect-square bg-emerald-600 dark:bg-emerald-400 rounded-full flex" />
                 <span className="h-6 aspect-square bg-gray-600 dark:bg-white rounded-full flex" />
               </div>
-              Recipe Jini
+              Recipe JINI
             </Link>
           </div>
           <div className={`
@@ -48,7 +48,7 @@ const Navbar = () => {
               </li>
             </ul>
             <div className="w-full flex sm:w-max lg:min-w-max lg:items-center">
-              <Link href="#" className="flex justify-center gap-x-3 items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white
+              <Link href="https://sanaullah04.github.io/SanaUllahTheLearner.github.io/#" className="flex justify-center gap-x-3 items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white
                       border-b bg-gray-700 dark:border-blue-300 hover:border-b-gray-900 dark:hover:border-b-white bg-transparent">
                 About Creator
                 <span>
@@ -266,7 +266,7 @@ const ProductsPage = () => {
               <p className="text-emerald-100 text-lg mb-8 max-w-2xl mx-auto">
                 Join thousands of home chefs who discover new recipes and improve their cooking with Recipe Jini
               </p>
-              <Link href="/signin" className="inline-flex items-center gap-x-3 bg-white text-emerald-700 font-semibold px-8 py-4 rounded-full hover:bg-gray-100 transition duration-300">
+              <Link href="/auth " className="inline-flex items-center gap-x-3 bg-white text-emerald-700 font-semibold px-8 py-4 rounded-full hover:bg-gray-100 transition duration-300">
                 Get Started Free
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
                   <path fillRule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clipRule="evenodd" />

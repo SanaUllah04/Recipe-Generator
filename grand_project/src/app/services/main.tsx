@@ -17,7 +17,7 @@ const Navbar = () => {
                 <span className="h-6 aspect-square bg-emerald-600 dark:bg-emerald-400 rounded-full flex" />
                 <span className="h-6 aspect-square bg-gray-600 dark:bg-white rounded-full flex" />
               </div>
-              Recipe Jini
+              Recipe JINI
             </Link>
           </div>
           <div className={`
@@ -50,7 +50,7 @@ const Navbar = () => {
             </ul>
 
               <div className="w-full flex sm:w-max lg:min-w-max lg:items-center">
-              <Link href="#" className="flex justify-center gap-x-3 items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white
+              <Link href="https://sanaullah04.github.io/SanaUllahTheLearner.github.io/#" className="flex justify-center gap-x-3 items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white
                       border-b bg-gray-700 dark:border-blue-300 hover:border-b-gray-900 dark:hover:border-b-white bg-transparent">
                 About Creator
                 <span>
@@ -371,10 +371,10 @@ const ServicesPage = () => {
                 Join thousands of satisfied customers who trust Recipe Jini for their culinary needs
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link href="/signin" className="inline-flex items-center justify-center gap-x-3 bg-white text-emerald-700 font-semibold px-8 py-4 rounded-full hover:bg-gray-100 transition duration-300">
+                <Link href="/auth" className="inline-flex items-center justify-center gap-x-3 bg-white text-emerald-700 font-semibold px-8 py-4 rounded-full hover:bg-gray-100 transition duration-300">
                   Start Free Trial
                 </Link>
-                <Link href="/contact" className="inline-flex items-center justify-center gap-x-3 border-2 border-white text-white font-semibold px-8 py-4 rounded-full hover:bg-white hover:text-emerald-700 transition duration-300">
+                <Link href="/company" className="inline-flex items-center justify-center gap-x-3 border-2 border-white text-white font-semibold px-8 py-4 rounded-full hover:bg-white hover:text-emerald-700 transition duration-300">
                   Contact Sales
                 </Link>
               </div>

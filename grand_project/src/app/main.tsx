@@ -48,7 +48,7 @@ return (
           </li>
         </ul>
         <div className="w-full flex sm:w-max lg:min-w-max lg:items-center">
-          <Link href="#" className="flex justify-center gap-x-3 items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white
+          <Link href="https://sanaullah04.github.io/SanaUllahTheLearner.github.io/#" className="flex justify-center gap-x-3 items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white
                   border-b bg-gray-700 dark:border-blue-300 hover:border-b-gray-900 dark:hover:border-b-white">
             About Creator
             <span>
@@ -110,14 +110,14 @@ return (
     <div className="mx-auto lg:max-w-7xl w-full px-5 sm:px-10 md:px-12 lg:px-5">
       <div className="text-center flex flex-col items-center space-y-10">
         <span className="border border-gray-500 px-3 py-0.5 rounded-full bg-gray-50 dark:bg-gray-950 bg-opacity-50 text-gray-700 dark:text-gray-300">
-          Creativity in mind
+          Flavors Tailored for You
         </span>
         <h1 className="text-4xl md:text-5xl lg:text-6xl/tight xl:text-7xl/tight text-gray-900 dark:text-white font-bold max-w-4xl capitalize">
-          We inspire Growth for your business brand
+          You Crave <br />
+          {'    '}JINI Cooks
         </h1>
         <p className="text-base text-gray-700 dark:text-gray-300 text-center max-w-xl">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique deleniti earum, qui odio,
-          dolorum labore incidunt ad ab porro, provident excepturi molestiae corporis molestias nam accusamus.
+          Tell us what you are craving, and JINI will instantly serve up the perfect recipe just for you. Personalized, quick, and delicious — your next favorite dish is just a click away!
         </p>
         <div className="flex justify-center">
           <Link href="./auth" className="px-8 h-12 rounded-full flex items-center gap-x-3 bg-emerald-700 text-white hover:bg-opacity-80">
