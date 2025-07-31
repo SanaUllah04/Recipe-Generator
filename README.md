@@ -66,14 +66,14 @@ The application will be available at `http://localhost:3000`.
 
 ## Working
 
-### 1. Click on SignUp.
+#### 1. Click on SignUp.
 ![SignUp](./grand_project/public/recipe-generator.png)
 
-### 2. Enter You Email.
+#### 2. Enter You Email.
 ![Email](./grand_project/public/Enter_Email.png)
 
-### 3. You Will be verified by **AppWrite** and arrive on the Search Screen
+#### 3. You Will be verified by **AppWrite** and arrive on the Search Screen
 ![verified](./grand_project/public/Search_Meal.png)
 
-### 4. Search Your favourite meal to recieve your Recipe.
+#### 4. Search Your favourite meal to recieve your Recipe.
 ![Recipe](./grand_project/public/Recieve_Recipe.png)
