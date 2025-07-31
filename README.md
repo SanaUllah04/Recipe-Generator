@@ -10,7 +10,11 @@ A modern recipe generator built with Next.js, offering a clean and intuitive int
 ## Video Demo
 
 - For better understanding of the overall system, have a look at the attached demo for the project.
-![Video Demo](./)
+
+<p align="center">
+  <img src="./Recipe%20JINI%20-%20Demo.zip" alt="Video Demo" />
+</p>
+
 
 
 ## Features
